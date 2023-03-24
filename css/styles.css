@@ -17,7 +17,7 @@
   padding: 120px 0;
 }
 .container{
-   max-width: 1158px;
+
    padding:0 15px;
    margin:0 auto;
 }
@@ -368,12 +368,7 @@ flex-basis: calc((100% - 48px) /3);
 }
  .flex-element:nth-child(3n+1){
     margin-right: 0;
- } 
 
-
- .features-item {
-   gap: 24px;
-   flex-basis: calc((100% - 72px) /4);
  }
 .item-box{
    display: flex;
@@ -454,7 +449,6 @@ flex-basis: calc((100% - 48px) /3);
    display: flex;
   }
  .team-section{
-
    background:var(--footer-color);
  }
  .header-team{

@@ -1,0 +1,40 @@
+.container{
+    max-width: 768px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+@media screen and (min-width:768px){
+    .container{
+        max-width: 1024px;
+    }
+    }
+
+@media screen and (min-width:768px){
+.features-list{
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width:768px){
+.features-item{
+    width:calc((100% - 48px) /2);
+}
+}
+@media screen and (min-width:768px){
+.features-list-icon{
+    display: none;
+    background: none;
+}
+}
+
+@media screen and (min-width:768px){
+.item-box{
+background-color:none;
+}
+}
+@media screen and (min-width:768px){
+.features-title{
+    font-size: 36px;
+}
+}
