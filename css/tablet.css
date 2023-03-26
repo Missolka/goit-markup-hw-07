@@ -1,4 +1,4 @@
-.container{
+/*.container{
     width: 768px;
     padding:0 15px;
     margin:0 auto;
@@ -48,3 +48,43 @@
 .clients-list{
     flex-basis: calc((100% - 48px) / 3);
 }
+/*/*
+
+@media screen and (min-width:768px){
+    .container{
+        max-width: 768px;
+    }
+    .features-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+     }
+    .features-item{
+        width:calc((100% - 48px) / 2);
+    }
+    .contact-list{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .features-list-icon{
+        display: flex;
+        background: none;
+    }
+    .item-box{
+        display: none;
+        background:none;
+    }
+    .features-title{
+        font-size: 36px;
+    }
+    .social-list-item{
+        flex-basis:calc((100% - 24px) /2);
+    }
+    .team-list{
+         width:calc((100% - 24px) / 2);
+    }
+    .clients-list{
+        flex-basis: calc((100% - 48px) / 3);
+    }
+    }

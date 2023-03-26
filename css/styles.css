@@ -391,7 +391,9 @@ flex-basis: calc((100% - 48px) /3);
  text-align: center;
  margin-bottom: 72px;
  }
-
+ .abilities-section {
+  display: none;
+ }
  .team-list{
    padding: 0;
    margin: 0;
