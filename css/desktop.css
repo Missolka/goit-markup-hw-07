@@ -1,86 +1,67 @@
 .container{
-    max-width: 1158px;
+    width: 1200px;
     padding:0 15px;
     margin:0 auto;
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:1200px){
 .container{
-    max-width: 1200px;
+    width: 1158px;
 }
 }
-@media screen and (min-width:1024px){
 .contact-list{
   margin-left: auto;
 }
+.features-list-icon{
+    display: flex;
 }
-@media screen and (min-width:1024px){
-    .features-list-icon{
-        display: block;
-        background: none;
-    }
-}
-@media screen and (min-width:1024px){
 .features-item {
-    flex-basis: calc((100% - 72px) /4);
-    width:100%;
-
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 72px) / 4);
 }
-}
-@media screen and (min-width:1024px){
 .features-list{
     display:flex;
     gap:24px;
     flex-wrap: wrap;
 }
-}
-
-@media screen and (min-width:1024px){
-    .item-box{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        height: 112px;
-        background-color:var(--footer-color);
-        border-radius: 4px;
+.item-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 112px;
+    background-color:var(--footer-color);
+    border-radius: 4px;
     }
-}
-@media screen and (min-width:1024px){
-    .features-title{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color:var(--accent-text-color);
-        margin-top: 8px;
-        margin-bottom: 8px;
+.features-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--accent-text-color);
+    margin-top: 8px;
+    margin-bottom: 8px;
     }
-}
-@media screen and (min-width:1024px){
 .abilities-section{
     padding-top: 0;
-  
-  }
 }
-  @media screen and (min-width:1024px){
-  .abilities-set{
+.abilities-set{
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-  }
+   justify-content: center;
 }
-  @media screen and (min-width:1024px){
- .abilities-set.item{
-    flex-basis: calc((100% - 48px) / 2);
- }
-}
-@media screen and (min-width:1024px){
-.card-item{
+.abilities-set.item{
     flex-basis: calc((100% - 48px) / 3);
- }
+}
+.card-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
+.social-list-item{
+    flex-basis:calc((100% - 72px) /4);
 }
 
-@media screen and (min-width:1024px){
-    .social-list-item{
-        flex-basis:calc((100% - 48px) /3);
-}
+.clients-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }

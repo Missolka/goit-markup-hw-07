@@ -1,5 +1,5 @@
 .container{
-    max-width: 768px;
+    width: 768px;
     padding:0 15px;
     margin:0 auto;
 }
@@ -10,39 +10,41 @@
     }
     }
 
-    @media screen and (min-width:1024px){
-        .contact-list{
-         flex-direction: column;
-            gap: 12px;
-        }
-        }
- @media screen and (min-width:1024px){
-        .features-item{
-            display: flex;
-            flex-wrap: wrap;
-            width:calc((100% - 48px) / 2);
+.contact-list{
+    flex-direction: column;
+    gap: 12px;
 }
+
+.features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+
+ }
+.features-item{
+    display: none;
+    width:calc((100% - 48px) / 2);
 }
-@media screen and (min-width:1024px){
+
+.features-list-icon{
+    display: flex;
+    background: none;
+}
 .item-box{
     display: none;
     background:none;
 }
-}
-@media screen and (min-width:1024px){
 .features-title{
     font-size: 36px;
 }
+.social-list-item{
+    flex-basis:calc((100% - 24px) /2);
+ 
 }
-
-@media screen and (min-width:1024px){
-    .social-list-item{
-        flex-basis:calc((100% - 72px) /4);
+.team-list{
+     width:calc((100% - 24px) / 2);
 }
-}
-
-@media screen and (min-width:1024px){
-    .team-list{
-        width:calc((100% - 48px) / 2);
-    }
+.clients-list{
+    flex-basis: calc((100% - 48px) / 3);
 }

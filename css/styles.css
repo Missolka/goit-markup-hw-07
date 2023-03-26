@@ -367,7 +367,14 @@ flex-basis: calc((100% - 48px) /3);
     margin-right: 0;
 
  }
- 
+ .item-box {
+  display: none;
+}
+.features-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+}
  .features-desc{
  font-size: 16px;
  line-height:1.5;
@@ -563,11 +570,7 @@ overflow: hidden;
    text-transform: capitalize;
    color: var(--accent-text-color);
    margin-bottom: 72px;
- }
- .clients-list{
-  display: flex;
-  gap: 24px;
-  justify-content: center;
+
 
  }
  .clients-link{
