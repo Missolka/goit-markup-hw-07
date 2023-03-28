@@ -54,29 +54,28 @@
     .container{
         max-width: 768px;
     }
-}
 
     .abilities-section{
         display: none;
-
     }
     .features-list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
+     }
 
+     .features-list-icon{
+        display: none;
+        background: none;
      }
     .features-item{
         width:calc((100% - 48px) / 2);
+
     }
     .contact-list{
         flex-direction: column;
         gap: 12px;
-    }
-    .features-list-icon{
-        display: flex;
-        background: none;
     }
     .item-box{
         display: none;
@@ -85,11 +84,9 @@
     .features-title{
         font-size: 36px;
     }
-
     .social-list-item{
         width: calc((100% - 24px) / 2);
     }
-
     .team-section{
         width: calc((100% - 24px) / 2);
     }
@@ -104,3 +101,4 @@
     .clients-item{
         flex-basis: calc((100% - 48px) / 3);
     }
+}

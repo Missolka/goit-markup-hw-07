@@ -71,14 +71,16 @@
         max-width: 1158px;
         padding:0 15px;
         margin:0 auto;
-    }
+ }
+
     .contact-list{
         margin-left: auto;
       }
       .features-list-icon{
           display: flex;
       }
-      .features-item {
+      
+.features-item {
         flex-direction: row;
           flex-wrap: wrap;
           width: calc((100% - 72px) / 4);
@@ -89,7 +91,7 @@
           flex-wrap: wrap;
 
       }
-      .item-box{
+.item-box{
           display: flex;
           justify-content:center;
           align-items: center;
@@ -97,7 +99,7 @@
           background-color:var(--footer-color);
           border-radius: 4px;
           }
-      .features-title{
+.features-title{
           font-weight: 500;
           font-size: 20px;
           line-height: 1.2;
@@ -107,7 +109,7 @@
           margin-bottom: 8px;
           }
 
-          .headline{
+.headline{
             font-size: 36px;
             line-height: 1.11;
             letter-spacing: 0.02em;
@@ -117,20 +119,20 @@
             text-align: center;
             margin-bottom: 72px;
           }
-      .abilities-section{
+      
+.abilities-section{
           padding-top: 0;
           display: block;
-      }
-      .abilities-set{
+}
+.abilities-set{
           display: flex;
           gap: 24px;
           flex-wrap: wrap;
          justify-content: center;
       }
-         .abilities-cards{
+ .abilities-cards{
    display: flex;
   }
-      }
       .abilities-set.item{
           flex-basis: calc((100% - 48px) / 3);
       }
@@ -148,6 +150,6 @@
       .abilities-section {
         display: block;
        }
+    
     }
- 
     
