@@ -366,9 +366,7 @@ flex-basis: calc((100% - 48px) /3);
  .flex-element:nth-child(3n+1){
     margin-right: 0;
 
- }
- .item-box {
-  display: none;
+
 }
 .features-list {
   display: flex;
@@ -380,16 +378,7 @@ flex-basis: calc((100% - 48px) /3);
  line-height:1.5;
  letter-spacing: 0.02em;
  color:var(--body-color);
- }
- .headline{
- font-size: 36px;
- line-height: 1.11;
- letter-spacing: 0.02em;
- text-transform:capitalize;
- color:var(--accent-text-color);
- justify-content: center;
- text-align: center;
- margin-bottom: 72px;
+ 
  }
  .abilities-section {
   display: none;
@@ -414,9 +403,7 @@ flex-basis: calc((100% - 48px) /3);
    padding-right: 65px;
    padding-left: 65px;
  }
-.abilities-cards{
-   display: flex;
-  }
+
  .team-section{
    background:var(--footer-color);
  }

@@ -48,17 +48,24 @@
 .clients-list{
     flex-basis: calc((100% - 48px) / 3);
 }
-/*/*
+/*/
 
 @media screen and (min-width:768px){
     .container{
         max-width: 768px;
+    }
+}
+
+    .abilities-section{
+        display: none;
+
     }
     .features-list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
+
      }
     .features-item{
         width:calc((100% - 48px) / 2);
@@ -78,13 +85,22 @@
     .features-title{
         font-size: 36px;
     }
+
     .social-list-item{
-        flex-basis:calc((100% - 24px) /2);
+        width: calc((100% - 24px) / 2);
+    }
+
+    .team-section{
+        width: calc((100% - 24px) / 2);
     }
     .team-list{
          width:calc((100% - 24px) / 2);
     }
     .clients-list{
-        flex-basis: calc((100% - 48px) / 3);
+      display:  flex;
+      flex-wrap: wrap; 
+      gap: 24px;
     }
+    .clients-item{
+        flex-basis: calc((100% - 48px) / 3);
     }
