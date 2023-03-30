@@ -91,12 +91,6 @@
     .social-list-item{
         flex-basis: calc((100% - 48px) / 3);
     }
-    .team-section{
-        width: calc((100% - 24px) / 2);
-    }
-    .team-list{
-         width:calc((100% - 24px) / 2);
-    }
     .clients-list{
       display: flex;
       column-gap: 24px;

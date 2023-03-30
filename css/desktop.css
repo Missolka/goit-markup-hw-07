@@ -66,7 +66,7 @@
     justify-content: center;
 }
 */
-@media screen (min-width:1200px){
+@media screen and (min-width:1200px)
     .container{
         max-width: 1158px;
         padding:0 15px;
@@ -127,7 +127,6 @@
 .abilities-set{
           display: flex;
           gap: 24px;
-          flex-wrap: wrap;
          justify-content: center;
       }
  .abilities-cards{
@@ -137,7 +136,7 @@
           flex-basis: calc((100% - 48px) / 3);
       }
       .card-item{
-          flex-basis: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 48px) / 3);
       }
 
       .social-list{
