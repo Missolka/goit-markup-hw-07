@@ -84,8 +84,12 @@
     .features-title{
         font-size: 36px;
     }
+    .socil-list{
+        column-gap: 24px;
+        row-gap: 64px;
+    }
     .social-list-item{
-        width: calc((100% - 24px) / 2);
+        flex-basis: calc((100% - 48px) / 3);
     }
     .team-section{
         width: calc((100% - 24px) / 2);
@@ -94,11 +98,15 @@
          width:calc((100% - 24px) / 2);
     }
     .clients-list{
-      display:  flex;
-      flex-wrap: wrap; 
-      gap: 24px;
+      display: flex;
+      column-gap: 24px;
+     
     }
     .clients-item{
         flex-basis: calc((100% - 48px) / 3);
+    }
+
+    .item{
+        width: calc((100% - 24px) / 2);
     }
 }

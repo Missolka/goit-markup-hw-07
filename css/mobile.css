@@ -1,14 +1,60 @@
 
+@media screen (min-width:480px){
+    container{
+        max-width:428px;
+    }
+/*@media screen (min-width:480px){
+ .team-section{
+    width:264px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+ }
+ }
 
-@media screen and (min-width:480px){
+ /*.mobile-menu{
+    display:flex;
+    position: fixed;
+    width: 100px;
+    height:100px;
+    top: 0;
+    left: 0;
+    z-index:1000px;
+    max-width: 480px;
+ }
 
-/*.header-nav-wrap{
-    background: var(--title-color);
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+ .mobile-menu-container{
+    display:flex;
+    position:relative;
+    padding:32px;
+    flex-direction:column;
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-left:40px;
+    padding-right:60px;
+
+ }
+.container-list-contacts{
+    margin-top:auto;
 }
 
+.contacts-mobile-list{
+    display:flex;
+    gap:40px;
+}
+socials-list-mobile{
+    display:flex;
+    margin-top:48px;
+    justify-content:space-between;
 
-.header-btn-mobile-close{
-    display:block;
-    width:24px;
-    margin-left:auto;
+.social-list{
+    display: flex; 
+    flex-wrap: wrap; 
+    column-gap: 16px; 
+    row-gap: 72px; 
+}
+
+.social-list-item{
+    flex-basis: calc((100% - 16px)/2);
+}
+
