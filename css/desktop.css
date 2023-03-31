@@ -66,7 +66,7 @@
     justify-content: center;
 }
 */
-@media screen and (min-width:1200px)
+@media screen and (min-width:1200px){
     .container{
         max-width: 1158px;
         padding:0 15px;
@@ -123,35 +123,32 @@
 .abilities-section{
           padding-top: 0;
           display: block;
+          flex-wrap: nowrap;
 }
 .abilities-set{
           display: flex;
           gap: 24px;
          justify-content: center;
+         flex-wrap: nowrap;
       }
  .abilities-cards{
    display: flex;
+   flex-wrap: nowrap;
   }
       .abilities-set.item{
           flex-basis: calc((100% - 48px) / 3);
+          flex-wrap: nowrap;
       }
       .card-item{
         flex-basis: calc((100% - 48px) / 3);
+        flex-wrap: nowrap;
       }
 
       .social-list{
         flex-wrap: nowrap; 
       }
 
-      .social-list-link{
-        width: 40px;
-        height:40px;
-        border-radius: 50%;
-        background-color:var(--button-color);
-        display:inline-block;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      }
-     
+      
      .social-list{
         display: flex;
         justify-content: center;
@@ -172,6 +169,7 @@
       }
       .clients-list{
       flex-wrap: nowrap;
+      justify-content: center;
       }
 
       .clients-item{
