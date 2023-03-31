@@ -49,60 +49,74 @@
     flex-basis: calc((100% - 48px) / 3);
 }
 /*/
+/* @media screen and (max-width: 767px) {
+  .contact-list,
+  .nav-list {
+    display: none;
+  }
+} */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .header {
+    padding: 0;
+  }
+  .nav-list,
+  .contact-list {
+    display: flex;
+  }
+  .menu-toggle{
+    display: none;
+  }
+  .abilities-section {
+    display: none;
+  }
+  .features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
 
-@media screen and (min-width:768px){
-    .container{
-        max-width: 768px;
-    }
+  .features-list-icon {
+    display: none;
+    background: none;
+  }
+  .features-item {
+    width: calc((100% - 48px) / 2);
+  }
+  .contact-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .item-box {
+    display: none;
+    background: none;
+  }
+  .features-title {
+    font-size: 36px;
+  }
+  .socil-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .social-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+  .clients-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 72px;
+  }
+  .clients-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
 
-    .abilities-section{
-        display: none;
-    }
-    .features-list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 24px;
-     }
-
-     .features-list-icon{
-        display: none;
-        background: none;
-     }
-    .features-item{
-        width:calc((100% - 48px) / 2);
-
-    }
-    .contact-list{
-        flex-direction: column;
-        gap: 12px;
-    }
-    .item-box{
-        display: none;
-        background:none;
-    }
-    .features-title{
-        font-size: 36px;
-    }
-    .socil-list{
-        column-gap: 24px;
-        row-gap: 64px;
-    }
-    .social-list-item{
-        flex-basis: calc((100% - 48px) / 3);
-    }
-    .clients-list{
-      display: flex;
-      column-gap: 24px;
-      flex-wrap: wrap;
-      row-gap: 72px;
-     
-    }
-    .clients-item{
-        flex-basis: calc((100% - 48px) / 3);
-    }
-
-    .item{
-        width: calc((100% - 24px) / 2);
-    }
+  .item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
 }
