@@ -9,7 +9,7 @@
   --description-color: #e7e9fc;
   --clients-color: #8e8f99;
   --clients-link-color: #afb1b8;
-  --background-input: #fcfcfc;
+  --background-input: #373232;
   --form-input: #000;
 }
 
@@ -561,7 +561,6 @@ img {
   justify-content: center;
   border: 1px solid var(--clients-color);
   border-radius: 4px;
-  width: 168px;
   height: 88px;
   color: var(--clients-link-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);

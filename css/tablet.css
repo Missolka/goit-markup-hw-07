@@ -95,28 +95,29 @@
     background: none;
   }
   .features-title {
-    font-size: 36px;
+    text-align: left;
   }
-  .socil-list {
-    column-gap: 24px;
-    row-gap: 64px;
+  .social-list{
+ display: flex;
+ flex-wrap: nowrap;
   }
   .social-list-item {
     flex-basis: calc((100% - 48px) / 3);
   }
   .clients-list {
-    display: flex;
-    column-gap: 24px;
-    flex-wrap: wrap;
-    row-gap: 72px;
+    gap: 72px 24px;
   }
   .clients-item {
     flex-basis: calc((100% - 48px) / 3);
   }
-
   .item {
-    width: calc((100% - 24px) / 2);
+    width:264px;
+    height:428px;
+    gap:24px;
+    margin-bottom: 62px;
+    /*width: calc((100% - 24px) / 2);*/
   }
 }
 @media screen and (min-width: 1200px) {
 }
+

@@ -71,7 +71,7 @@
         </section>
         <!--/Section 1-->
         <!--Section 2-->
-        <section class="section features-section hide">
+        <section class="section features-section ">
             <h2 class="visually-hidden">Adantages</h2>
             <div class="container">
                 <ul class="features-list">
@@ -136,11 +136,11 @@
         </section>
         <!--/Section 3-->
         <!--Section 4-->
-        <section class=" section team-section hide">
+        <section class=" section team-section ">
             <div class="container">
                 <h2 class="header-team">Our Team</h2>
                 <ul class="list team-list">
-                    <li class="item"><img srcset="new desctop x2.jpg,tablet x2.jpg" src="./images/new.jpg" width="264"
+                    <li class="item"><img srcset="new-x2.jpg@2x" src="./images/new.jpg" width="264"
                             alt="Man">
                         <div class="team-descr">
                             <h3 class="about-title">Mark Guerrero</h3>
@@ -177,7 +177,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="item"><img srcset="new1desctop x2.jpg,new1tablet x2.jpg" src="./images/new1.jpg"
+                    <li class="item"><img srcset="new-1@x2.jpg" src="./images/new1.jpg"
                             width="264" alt="Man">
                         <div class="team-descr">
                             <h3 class="about-title">Tom Ford</h3>
@@ -214,7 +214,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="item"><img srcset="new2desctop x2.jpg,new2tablet x2.jpg" src="./images/new2.jpg"
+                    <li class="item"><img srcset="new-2@x2" src="./images/new2.jpg"
                             width="264" alt="Woman">
                         <div class="team-descr">
                             <h3 class="about-title">Camila Garcia</h3>
@@ -252,7 +252,8 @@
 
                         </div>
                     </li>
-                    <li class="item"><img srcset="new3desctop x2.jpg,new2tablet x2.jpg" src="./images/new3.jpg"
+                    <li class="item">
+                        <img srcset="./images/" src="./images/new3.jpg"
                             width="264" alt="Man">
                         <div class="team-descr">
                             <h3 class="about-title">Daniel Wilson</h3>
@@ -293,7 +294,7 @@
             </div>
         </section>
         <!--/Section 4-->
-        <section class=" section customers-section hide">
+        <section class=" section customers-section">
             <div class="container">
                 <h2 class="clients-headline">Customers</h2>
                 <ul class="clients-list list">
@@ -345,7 +346,7 @@
     </main>
     <!--/Main-->
     <!--Footer-->
-    <footer class="page-footer hide">
+    <footer class="page-footer ">
         <div class="container">
             <div>
                 <a class="footer-logo" href="./index.html">Web<span class="footer-second-logo link">Studio</span></a>
@@ -459,27 +460,27 @@
             </form>
         </div>
     </div>
-    <div class="mobile-menu hide">
-        <div class="container mobile-menu-container">
-            <button type="button" class="mobile-menu-close-btn">
+    <div class="mobile-menu js-menu-container">
+            <button type="button" class="mobile-menu-close-btn js-close-menu">
                 <svg class="mobile-menu-close-btn-icon" width="8" height="8">
-                    <use href="./images/sprite-3.svg#icon-icon-menu"></use>
+                    <use href="./images/sprite-3.svg#icon-Vector-2"></use>
                 </svg>
             </button>
             <ul class="menu-nav-mobile-list">
-                <li class="menu-nav-mobile-item"><a href="./index.html"></a></li>
-                <li class="menu-nav-mobile-item"><a href="./portfolio.html"></a></li>
+                <li class="menu-nav-mobile-item"><a href="./index.html">Studio</a></li>
+                <li class="menu-nav-mobile-item"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="menu-nav-mobile-item active"><a href="#">Contacts</a></li>
             </ul>
             <div class="container-list-contacts">
-                <ul class="mobile-contacts-list">
-                    <li class="contacts-phone-item"><a href="+11 (000) 111-11-11" class="contacts-list-link"></a>
+                <ul class="mobile-contacts">
+                    <li class="mobile-contacts__item"><a href="+110001111111" class="contacts-list-link contacts-list-link--bolder">+11 (000) 111-11-11</a>
                     </li>
-                    <li class="contacts-mail-item"><a href="info@devstudio.com" class="contacts-list-link"></a></li>
+                    <li class="mobile-contacts__item"><a href="info@devstudio.com" class="contacts-list-link">info@devstudio.com</a></li>
                 </ul>
                 <ul class="socials-list-mobile list">
                     <li class="socials-list-item">
                         <a href="" class="socials-list-link">
-                            <svg class="socials-list-icon" width="" height="">
+                            <svg class="socials-list-icon" width="24" height="24">
                                 <use href="./images/sprite-3.svg#instagram">
                                 </use>
                             </svg>
@@ -487,7 +488,7 @@
                     </li>
                     <li class="socials-list-item">
                         <a href="" class="socials-list-link">
-                            <svg class="socials-list-icon" width="" height="">
+                            <svg class="socials-list-icon" width="24" height="24">
                                 <use href="./images/sprite-3.svg#twitter">
                                 </use>
                             </svg>
@@ -495,7 +496,7 @@
                     </li>
                     <li class="socials-list-item">
                         <a href="" class="socials-list-link">
-                            <svg class="socials-list-icon" width="" height="">
+                            <svg class="socials-list-icon" width="24" height="24">
                                 <use href="./images/sprite-3.svg#facebook">
                                 </use>
                             </svg>
@@ -503,7 +504,7 @@
                     </li>
                     <li class="socials-list-item">
                         <a href="" class="socials-list-link">
-                            <svg class="socials-list-icon" width="" height="">
+                            <svg class="socials-list-icon" width="24" height="24">
                                 <use href="./images/sprite-3.svg#linkedin">
                                 </use>
                             </svg>
@@ -512,9 +513,16 @@
     
                 </ul>
             </div>
-        </div>
     </div>
-    <script src="./main.js/modal.js"></script>
+
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/burger.js"></script>
 </body>
 
 </html>
