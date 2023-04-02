@@ -135,23 +135,22 @@ color: var(--accent-text-color);
  .clients-item{
         flex-basis: calc((100% - 16px) / 2);
       }
+.page-footer-logo-container{
+    text-align: center;
+}
 .footer-logo{
     margin-bottom:17px;
 }
 
+.footer-description{
+    text-align: center;
+}
 .footer-social-media{
 margin-bottom:72px;
 }
 
 .footer-headline{
     text-align: center;
-}
-.page-footer-logo-container{
-    text-align: center;
-    margin-bottom: 72px ;
-}
-.page-footer .container{
-    display: flex;
 }
 .subscribe-field{
     width:100%

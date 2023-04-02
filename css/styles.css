@@ -572,9 +572,7 @@ img {
 .clients-link:is(:hover, :focus) {
   color: var(--background-color);
   border: 1px solid var(--background-color);
-}
-.page-footer.container {
-  display: flex;
+
 }
 .page-footer {
   color: var(--footer-color);
@@ -605,6 +603,13 @@ a.decoration {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--description-color);
+  /*
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding-left: 80px;
+  padding-right: 80px;*/
 }
 .footer-headline {
   font-weight: 500;
@@ -614,6 +619,10 @@ a.decoration {
   margin-bottom: 16px;
   color: var(--title-color);
   text-align: left;
+  /*
+    margin: 0;
+    padding-left: 110px;
+    padding-right: 110px;*/
 }
 .footer-social-media {
   margin-left: 120px;
@@ -622,6 +631,7 @@ a.decoration {
   display: flex;
   gap: 16px;
   justify-content: center;
+  
 }
 .footer-social-item {
   width: 44px;
@@ -645,6 +655,12 @@ a.decoration {
 }
 .page-footer .container {
   display: flex;
+}
+.page-footer-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 72px;
 }
 .backdrop {
   position: fixed;
@@ -860,6 +876,7 @@ a.decoration {
   letter-spacing: 0.02em;
   color: var(--title-color);
   margin-left: 80px;
+  margin-bottom: 16px;
 }
 .policy {
   color: var(--button-color);
