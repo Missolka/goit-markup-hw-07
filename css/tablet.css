@@ -78,7 +78,6 @@
     flex-wrap: wrap;
     column-gap: 24px;
   }
-
   .features-list-icon {
     display: none;
     background: none;
@@ -112,25 +111,23 @@
   }
   .item {
     width:264px;
-    height:428px;
     gap:24px;
-    margin-bottom: 62px;
     /*width: calc((100% - 24px) / 2);*/
   }
+
+  .about-list{
+    flex-wrap: wrap;
+  }
+  .about-item.item{
+    width: calc((100% - 24px) / 2);
+  }
+  .page-footer .container{
+    flex-direction: row;
+ }
 }
 @media screen and (min-width: 1200px) {
 }
 
-
 .about-list{
   flex-wrap: wrap;
-}
-.about-item{
-  width: calc((100% - 24px) / 2);
-}
-.about-list{
-}
-
-.page-footer .container{
-   flex-direction: row;
 }
