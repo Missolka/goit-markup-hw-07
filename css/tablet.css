@@ -112,22 +112,17 @@
   .item {
     width:264px;
     gap:24px;
-    /*width: calc((100% - 24px) / 2);*/
+    margin-bottom: 0;
   }
-
   .about-list{
     flex-wrap: wrap;
   }
   .about-item.item{
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 48px) / 3);
   }
   .page-footer .container{
-    flex-direction: row;
+
  }
 }
 @media screen and (min-width: 1200px) {
-}
-
-.about-list{
-  flex-wrap: wrap;
 }

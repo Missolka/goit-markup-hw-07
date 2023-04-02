@@ -349,6 +349,7 @@ img {
   flex-basis: calc((100% - 48px) / 3);
 }
 
+
 .about-item:hover,
 .about-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -599,7 +600,7 @@ a.decoration {
   color: var(--footer-color);
 }
 .footer-description {
-  width: 264px;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -849,7 +850,6 @@ a.decoration {
   background: var(--background-color);
 }
 .subscribe-field {
-  display: flex;
   border: var(--title-color);
 }
 .subscribe-title {
@@ -865,7 +865,7 @@ a.decoration {
   color: var(--button-color);
 }
 .subscribe-input {
-  width: 264px;
+ 
   height: 40px;
   padding-left: 16px;
   color: var(--title-color);

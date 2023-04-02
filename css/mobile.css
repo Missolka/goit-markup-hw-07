@@ -135,16 +135,29 @@ color: var(--accent-text-color);
  .clients-item{
         flex-basis: calc((100% - 16px) / 2);
       }
-/*.container{
-   flex-wrap: wrap;
-   justify-content: center;
-}*/
+.footer-logo{
+    margin-bottom:17px;
+}
 
+.footer-social-media{
+margin-bottom:72px;
+}
+
+.footer-headline{
+    text-align: center;
+}
+.page-footer-logo-container{
+    text-align: center;
+    margin-bottom: 72px ;
+}
 .page-footer .container{
-    flex-direction: column; 
- 
     display: flex;
-   
+}
+.subscribe-field{
+    width:100%
+}
+.subscribe-title{
+    margin:0;
 }
 .subscribe-form{
     display: flex;
@@ -155,10 +168,12 @@ color: var(--accent-text-color);
 .subscribe-input{
     width:100%;
     max-width: 398px;
+    margin-left:0;
+    margin-bottom: 16px;
     
   }
   .subscribe-button{
-    display: flex;
+    /*display: flex;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
@@ -168,8 +183,17 @@ color: var(--accent-text-color);
     border-radius: 4px;
     font-weight: 500;
     width:165px;
+    */
+    margin:0 auto;
   }
 
- /*.about-item{
-    flex-basis: calc((100% - 24px) / 2);
+  .about-button{
+    
+  }
+  .about-item.item{
+    width: calc((100% - 24px) / 2);
+  }
+
+  .about-list{
+flex-wrap: wrap;
   }
