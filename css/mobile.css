@@ -140,7 +140,12 @@ color: var(--accent-text-color);
    justify-content: center;
 }*/
 
-
+.page-footer .container{
+    flex-direction: column; 
+ 
+    display: flex;
+   
+}
 .subscribe-form{
     display: flex;
     flex-direction: column;
@@ -163,4 +168,8 @@ color: var(--accent-text-color);
     border-radius: 4px;
     font-weight: 500;
     width:165px;
+  }
+
+ /*.about-item{
+    flex-basis: calc((100% - 24px) / 2);
   }

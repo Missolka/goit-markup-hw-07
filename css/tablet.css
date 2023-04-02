@@ -121,3 +121,16 @@
 @media screen and (min-width: 1200px) {
 }
 
+
+.about-list{
+  flex-wrap: wrap;
+}
+.about-item{
+  width: calc((100% - 24px) / 2);
+}
+.about-list{
+}
+
+.page-footer .container{
+   flex-direction: row;
+}

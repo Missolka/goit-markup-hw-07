@@ -55,7 +55,14 @@
         <li class="about-item item">
             <a class="link" href="./portfolio.html">
                 <div class="thumb">
-            <img class="img" srcset="image1desctop x2.jpg,image1tablet x2.jpg"
+            <picture>
+            <sourse srcset="./images/image1.jpg 1x, ./images/image1desc-x2.jpg 2x"
+            media="(min-width:1200px)">
+            <sourse srcset="./images/image1.jpg 1x, ./images/image1tab-x2.jpg 2x"
+            media="(min-width:768px)">
+            <sourse srcset="./images/image1.jpg 1x, ./images/image1mob-x2.jpg 2x"
+            media="(min-width:480px)">
+            <img class="img" 
             src="./images/image1.jpg" width="360" alt="Screens" height="300">
             <p class="thumb-overlay">14 Stylish and User-Friendly App Design Concepts·Task Manager App·Calorie Tracker App·Exotic Fruit Ecommerce App·Cloud Storage App</p>
             </div>
