@@ -58,6 +58,10 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+
   }
   .header {
     padding: 0;
@@ -114,13 +118,63 @@
     gap:24px;
     margin-bottom: 0;
   }
-  .about-list{
-    flex-wrap: wrap;
+  .about-button{
+    display: flex;
+    gap:24px;
+    margin-bottom: 64px;
+    flex-wrap: nowrap;
   }
+  
   .about-item.item{
     flex-basis: calc((100% - 24px) / 2);
   }
-  
+
+  .page-footer .container {
+    display: flex;
+    flex-wrap: wrap;
+   }
+.footer-logo{
+ margin-bottom: 17px;
+ text-align: left;
 }
+.footer-headline{
+text-align: left;
+margin-top: 72px;
+}
+.footer-description{
+  text-align: left;
+}
+.subscribe-field{
+width:264px;
+}
+.subscribe-input{
+  margin-left: 50px;
+}
+.subscribe-btn{
+  margin-left: 396px;
+  margin-top: 0;
+}
+.subscribe-title{
+margin-left: 50px;
+}
+.subscribe-form{
+  padding-top: 72px;
+display: block;
+ 
+}
+.footer-social-media{
+  margin-right: 164px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
 }
