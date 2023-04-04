@@ -10,6 +10,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.menu-toggle{
+    border:none;
+    background: transparent;
+}
  .mobile-menu a{
     text-decoration: none;
  }
@@ -47,9 +52,6 @@ color: inherit;
 }
 .menu-nav-mobile-item.active{
     color:var(--background-color);
-}
-.menu-toggle js-open-menu{
-    text-decoration: none;
 }
 .socials-list-mobile{
     display: flex;
