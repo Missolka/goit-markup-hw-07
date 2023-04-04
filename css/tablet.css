@@ -73,6 +73,10 @@
   .menu-toggle{
     display: none;
   }
+.hero-title{
+  font-size: 56px;
+  line-height: 1.4;
+}
   .abilities-section {
     display: none;
   }
@@ -134,8 +138,10 @@
     flex-wrap: wrap;
    }
 .footer-logo{
+  display: block;
  margin-bottom: 17px;
- text-align: left;
+text-align: left;
+
 }
 .footer-headline{
 text-align: left;
@@ -144,27 +150,27 @@ margin-top: 72px;
 .footer-description{
   text-align: left;
 }
-.subscribe-field{
-width:264px;
+.subscribe-btn{
+  margin: 0;
 }
 .subscribe-input{
-  margin-left: 50px;
-}
-.subscribe-btn{
-  margin-left: 396px;
-  margin-top: 0;
-}
-.subscribe-title{
-margin-left: 50px;
+width:264px;
+margin-right: 24px;
 }
 .subscribe-form{
-  padding-top: 72px;
 display: block;
- 
+}
+.subscribe-field{
+  display: flex;
+  flex-direction: row;
 }
 .footer-social-media{
+  margin-left: 24px;
   margin-right: 164px;
 }
+}
+.mobile-menu{
+  display: none;
 }
 
 

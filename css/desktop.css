@@ -71,7 +71,6 @@
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-  
   }
   .contact-list {
     flex-direction: row;
@@ -81,6 +80,11 @@
   .contact-mail {
     font-size: 16px;
     line-height: 1.5;
+  }
+  .hero-title{
+    min-width:1200px;
+    font-size: 56px;
+    line-height: 1.4;
   }
   .features-list-icon {
     display: flex;
@@ -190,9 +194,6 @@
   .page-footer-logo-container{
 margin-left: 0;
   }
-.page-footer.container {
-  display: flex;
-}
 .page-footer {
   color: var(--footer-color);
   background-color: var(--accent-text-color);

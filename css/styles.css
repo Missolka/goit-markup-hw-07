@@ -173,8 +173,6 @@ a.decoration {
   background-size: cover;
 }
 .hero-title {
-  font-size: 56px;
-  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--title-color);
   margin: 0 auto 48px auto;
@@ -899,7 +897,6 @@ a.decoration {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin-left: 24px;
   max-width: 165px;
   padding: 8px 24px;
   gap: 16px;
